@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="" />
+    <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/beautifulsoup4-4.8.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/beautifulsoup4-4.8.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/beautifulsoup4-4.8.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/beautifulsoup4-4.8.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/beautifulsoup4-4.8.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/renderers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templates/bootstrap3/bootstrap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templates/bootstrap3/field_help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templates/bootstrap3/form_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templates/bootstrap3/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templates/bootstrap3/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/templatetags/bootstrap3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap3/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/renderers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/bootstrap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/field_help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/form_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templates/bootstrap4/widgets/radio_select_button_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/templatetags/bootstrap4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bootstrap4/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/builder/_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/dammit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/diagnose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_soup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/bs4/tests/test_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap3-12.0.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django_bootstrap4-1.1.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve-1.9.5.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/__meta__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/css_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/css_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/css_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/soupsieve/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insta/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,15 +109,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xc3FHOpbmsATnx5vdblEm2kD9q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -38,6 +140,9 @@
       <updated>1581331449166</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="167" width="1022" height="737" key="SettingsEditor" timestamp="1581333809009">
