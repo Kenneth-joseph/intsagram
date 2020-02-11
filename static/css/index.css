@@ -1,3 +1,9 @@
 p{
 color:blue;
 }
+.vertical-line{
+      width: 1px; /* Line width */
+      background-color: white; /* Line color */
+      height: 60%; /* Override in-line if you want specific height. */
+      float: right; /* Ca
+}

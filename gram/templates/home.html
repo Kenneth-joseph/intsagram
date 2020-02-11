@@ -1,7 +1,64 @@
 {%extends 'base.html'%}
 {%block content%}
 {{block.super}}
-<p>
-    hey
-</p>
+<div class="container">
+    {%for posts in post%}
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-11">
+            <!-- Card Wider -->
+<div class="card card-cascade wider mt-4">
+
+  <!-- Card image -->
+  <div class="view view-cascade overlay">
+    <img class="card-img-top img-fluid img-responsive" src="{{posts.post_pic.url}}" alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body card-body-cascade">
+      <a class="px-2 fa-lg li-ic"><i class="far fa-heart"></i></a>
+      <a class="px-2 fa-lg li-ic"><i class="far fa-comment"></i></a>
+      <a class="px-2 fa-lg li-ic"><i class="far fa-paper-plane"></i></a>
+
+
+    <!-- Title -->
+    <h5 class="card-title"><strong>Alison Belmont</strong></h5>
+    <!-- Subtitle -->
+    <!-- Text -->
+    <p class="card-text">{{posts.content}} </p>
+
+  </div>
+
+</div>
+<!-- Card Wider -->
+
+<!-- Card Narrower -->
+
+        </div>
+    </div>
+    {% empty%}
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12">
+            <!-- Jumbotron -->
+    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);">
+  <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+    <div class="py-5">
+
+      <!-- Content -->
+      <h5 class="h5 orange-text"><i class="fas fa-camera-retro"></i> Instagram</h5>
+      <h2 class="card-title h2 my-4 py-2">share and like your best pics with your hommies</h2>
+      <p class="mb-4 pb-2 px-md-5 mx-md-5">No posts are made yet, post now</p>
+      <a class="btn peach-gradient"><i class="fas fa-clone left"></i> LOG IN</a>
+
+    </div>
+  </div>
+</div>
+<!-- Jumbotron -->
+        </div>
+    </div>
+    {%endfor%}
+</div>
+
 {%endblock%}

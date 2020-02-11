@@ -16,17 +16,30 @@ class Profile(models.Model):
 
 
 class Post(models.Model):
-    content = models.CharField(max_length=100)
+    content = models.TextField(max_length=100)
     pub_date = models.DateTimeField(auto_now_add=True)
     profile = models.ForeignKey(Profile)
     post_pic = models.ImageField(upload_to='pictures/', default='kent')
+
+    def save_post(self):
+        self.save()
+
+    def delete_post(self):
+        self.delete()
+
+    @classmethod
+    def get_post(cls):
+        today = dt.datetime.today()
+        post = cls.objects.filter(pub_date__date=today)
+        print(post)
+        return post
 
     def __str__(self):
         return self.content
 
 
 class Comment(models.Model):
-    comment = models.CharField(max_length=50)
+    comment = models.TextField(max_length=50)
     post = models.ForeignKey(Post)
 
     def save_comment(self):
