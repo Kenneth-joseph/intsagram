@@ -31,7 +31,6 @@ class Post(models.Model):
     def get_post(cls):
         today = dt.datetime.today()
         post = cls.objects.filter(pub_date__date=today)
-        print(post)
         return post
 
     def __str__(self):
