@@ -5,6 +5,8 @@ import datetime as dt
 class Profile(models.Model):
     name = models.CharField(max_length=30)
     email = models.EmailField()
+    phone_number = models.CharField(max_length=10, blank=True)
+    profile_pic = models.ImageField(upload_to='pictures/', default='kent')
 
     def save_profile(self):
         self.save()
@@ -17,6 +19,7 @@ class Post(models.Model):
     content = models.CharField(max_length=100)
     pub_date = models.DateTimeField(auto_now_add=True)
     profile = models.ForeignKey(Profile)
+    post_pic = models.ImageField(upload_to='pictures/', default='kent')
 
     def __str__(self):
         return self.content
