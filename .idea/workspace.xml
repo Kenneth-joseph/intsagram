@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gram/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/templates/registration/registration_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gram/templates/registration" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -57,9 +62,9 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="0" y="167" width="1022" height="737" key="SettingsEditor/0.27.1920.1010@0.27.1920.1010" timestamp="1581333809008" />
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581427918002">
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581438535293">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1581427918002" />
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1581438535293" />
   </component>
 </project>
