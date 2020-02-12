@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'gram.apps.GramConfig',
     'bootstrap4',
     'bootstrap3',
+    'tinymce',
 ]
 
 MIDDLEWARE = [

@@ -1,6 +1,7 @@
 from django.db import models
 import datetime as dt
 from django.contrib.auth.models import User
+from tinymce.models import HTMLField
 
 
 class Profile(models.Model):
@@ -19,7 +20,7 @@ class Profile(models.Model):
 
 
 class Post(models.Model):
-    content = models.TextField(max_length=100)
+    content = HTMLField()
     pub_date = models.DateTimeField(auto_now_add=True)
     profile = models.ForeignKey(User, on_delete=models.CASCADE)
     post_pic = models.ImageField(upload_to='pictures/', default='kent')
