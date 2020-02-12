@@ -1,5 +1,6 @@
 from django.db import models
 import datetime as dt
+from django.contrib.auth.models import User
 
 
 class Profile(models.Model):
@@ -7,6 +8,8 @@ class Profile(models.Model):
     email = models.EmailField()
     phone_number = models.CharField(max_length=10, blank=True)
     profile_pic = models.ImageField(upload_to='pictures/', default='kent')
+    followers = models.IntegerField()
+    following = models.IntegerField()
 
     def save_profile(self):
         self.save()
@@ -18,8 +21,9 @@ class Profile(models.Model):
 class Post(models.Model):
     content = models.TextField(max_length=100)
     pub_date = models.DateTimeField(auto_now_add=True)
-    profile = models.ForeignKey(Profile)
+    profile = models.ForeignKey(User, on_delete=models.CASCADE)
     post_pic = models.ImageField(upload_to='pictures/', default='kent')
+    likes = models.IntegerField()
 
     def save_post(self):
         self.save()
@@ -30,7 +34,7 @@ class Post(models.Model):
     @classmethod
     def get_post(cls):
         today = dt.datetime.today()
-        post = cls.objects.filter(pub_date__date=today)
+        post = Post.objects.all()
         return post
 
     def __str__(self):

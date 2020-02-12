@@ -5,5 +5,11 @@ color:blue;
       width: 1px; /* Line width */
       background-color: white; /* Line color */
       height: 60%; /* Override in-line if you want specific height. */
-      float: right; /* Ca
+      float: right;
 }
+
+/*.card-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("static/images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/

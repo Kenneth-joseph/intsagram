@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gram/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/migrations/0004_auto_20200212_1029.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/WT1_tbgtNFJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/WTC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/des3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/w2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/how-to-repost-on-instagram.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gram/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +70,9 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="0" y="167" width="1022" height="737" key="SettingsEditor/0.27.1920.1010@0.27.1920.1010" timestamp="1581333809008" />
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581442324906">
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581485224323">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1581442324906" />
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1581485224322" />
   </component>
 </project>
