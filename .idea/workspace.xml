@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gram/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insta/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insta/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/templates/new-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
