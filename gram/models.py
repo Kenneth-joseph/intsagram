@@ -15,6 +15,12 @@ class Profile(models.Model):
     def save_profile(self):
         self.save()
 
+    @classmethod
+    def get_profile(cls, profile_id):
+        prof = Profile.objects.filter(pk=profile_id)
+        print(prof)
+        return prof
+
     def __str__(self):
         return self.name
 

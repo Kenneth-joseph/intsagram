@@ -27,7 +27,11 @@
     <h5 class="card-title"><strong>{{posts.profile.name}}</strong></h5>
     <!-- Subtitle -->
     <!-- Text -->
-    <p class="card-text">{{posts.content}} </p>
+    <p class="card-text">
+        {% autoescape on %}
+        {{posts.content|safe}}
+        {% endautoescape %}
+    </p>
     <p class="card-text">{{posts.pub_date|timesince}} AGO </p>
   </div>
 

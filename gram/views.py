@@ -35,3 +35,12 @@ def new_post(request):
     else:
         form = NewPost()
     return render(request, 'new-post.html', {"form": form})
+
+
+# -------------------------------------------------------------------------------
+# defining a function  for profile section
+
+@login_required(login_url='/accounts/login/')
+def profile(request):
+
+    return render(request, 'profile.html')
