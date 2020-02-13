@@ -9,8 +9,8 @@ class Profile(models.Model):
     email = models.EmailField()
     phone_number = models.CharField(max_length=10, blank=True)
     profile_pic = models.ImageField(upload_to='pictures/', default='kent')
-    followers = models.IntegerField()
-    following = models.IntegerField()
+    followers = models.IntegerField(default=0)
+    following = models.IntegerField(default=0)
 
     def save_profile(self):
         self.save()
@@ -30,7 +30,7 @@ class Post(models.Model):
     pub_date = models.DateTimeField(auto_now_add=True)
     profile = models.ForeignKey(User, on_delete=models.CASCADE)
     post_pic = models.ImageField(upload_to='pictures/', default='kent')
-    likes = models.IntegerField()
+    likes = models.IntegerField(default=0)
 
     def save_post(self):
         self.save()
