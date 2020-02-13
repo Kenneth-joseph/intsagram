@@ -5,6 +5,9 @@ from tinymce.models import HTMLField
 
 
 class Profile(models.Model):
+    users = models.OneToOneField(User, on_delete=models.CASCADE)
+    bio = models.CharField(max_length=30, default='kent')
+    prof_picture = models.ImageField(upload_to='picture/', default='kent')
     name = models.CharField(max_length=30)
     email = models.EmailField()
     phone_number = models.CharField(max_length=10, blank=True)
@@ -22,7 +25,7 @@ class Profile(models.Model):
         return prof
 
     def __str__(self):
-        return self.name
+        return f'{self.users.username} profile'
 
 
 class Post(models.Model):
