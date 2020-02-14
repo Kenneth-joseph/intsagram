@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gram/migrations/0005_auto_20200214_1121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/got.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pictures/vi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gram/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
