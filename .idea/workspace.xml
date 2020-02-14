@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552d3850-b9b7-44fa-b0ae-8155c207e8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gram/migrations/0002_auto_20200213_2347.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gram/migrations/0003_auto_20200214_0001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gram/migrations/0004_auto_20200214_0018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gram/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/kent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pictures/WTC1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pictures/mor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pictures/w2_dBYE7nB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram/migrations/0005_auto_20200214_1121.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gram/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gram/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gram/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/gram/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
