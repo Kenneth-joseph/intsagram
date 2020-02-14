@@ -5,13 +5,12 @@ from tinymce.models import HTMLField
 
 
 class Profile(models.Model):
-    users = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     bio = models.CharField(max_length=30, default='kent')
-    prof_picture = models.ImageField(upload_to='picture/', default='kent')
     name = models.CharField(max_length=30)
     email = models.EmailField()
     phone_number = models.CharField(max_length=10, blank=True)
-    profile_pic = models.ImageField(upload_to='pictures/', default='kent')
+    profile_pic = models.ImageField(upload_to='pictures/', default='kent.png')
     followers = models.IntegerField(default=0)
     following = models.IntegerField(default=0)
 
@@ -25,7 +24,7 @@ class Profile(models.Model):
         return prof
 
     def __str__(self):
-        return f'{self.users.username} profile'
+        return f'{self.user.username} profile'
 
 
 class Post(models.Model):

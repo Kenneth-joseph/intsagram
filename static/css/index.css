@@ -1,6 +1,4 @@
-p{
-color:blue;
-}
+
 .vertical-line{
       width: 1px; /* Line width */
       background-color: white; /* Line color */
@@ -16,4 +14,18 @@ color:blue;
 
 . int{
 color:black;
+}
+.circle-img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.font-size{
+font-size:20px;
 }

@@ -1,5 +1,22 @@
 {%extends 'base.html'%}
 {%block content%}
-   <p>{{user.username}}</p>
-   <p>{{user.}}</p>
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="content-section mt-5">
+               <div class="media">
+                  <img class="rounded-circle img-responsive img-circle" src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg">
+<!--                  <div class="avatar mx-auto white">-->
+<!--                  <img src="" class="rounded-circle"-->
+<!--                   alt="woman avatar">-->
+<!--                  </div>-->
+                  <div class="media-body mt-4 ml-4">
+                     <h2 class="account-heading">{{user.username}}</h2>
+                     <p class="text-secondary">{{user.email}}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 {%endblock%}
